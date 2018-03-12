@@ -5,18 +5,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:artiely/treeplus.git"
+  },
   "bin": {
     "treeplus": "bin/treeplus.js",
     "tp": "bin/treeplus.js"
   },
-  "keywords": [
-    "tree",
-    "treeplus",
-    "文件树",
-    "文件树",
-    "树目录",
-    "目录树"
-  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "readmeFilename": "README.md",
+  "keywords": ["tree", "treeplus", "文件树", "文件树", "树目录", "目录树"],
   "author": "artiely",
   "license": "ISC",
   "dependencies": {
