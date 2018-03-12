@@ -1,5 +1,5 @@
 {
-  "name": "node-tree",
+  "name": "treeplus",
   "version": "1.0.0",
   "description": "A widget that outputs a project structure.",
   "scripts": {
