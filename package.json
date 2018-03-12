@@ -1,0 +1,26 @@
+{
+  "name": "node-tree",
+  "version": "1.0.0",
+  "description": "A widget that outputs a project structure.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "treeplus": "bin/treeplus.js",
+    "tp": "bin/treeplus.js"
+  },
+  "keywords": [
+    "tree",
+    "treeplus",
+    "文件树",
+    "文件树",
+    "树目录",
+    "目录树"
+  ],
+  "author": "artiely",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.0",
+    "yargs": "^11.0.0"
+  }
+}
