@@ -11,7 +11,7 @@ $ [tp|treeplus]
 $ [tp|treeplus] -i node_modules
 ```
 
-#example
+# example
 ```
 $ tp -i node_modules bin
 
