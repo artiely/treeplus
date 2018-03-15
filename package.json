@@ -1,7 +1,7 @@
 {
   "name": "treeplus",
-  "version": "1.0.0",
-  "description": "A widget that outputs a project structure.",
+  "version": "1.0.1",
+  "description": "treeplus is a node module for creating and manipulating hierarchical tree structures.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

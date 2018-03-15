@@ -1,5 +1,5 @@
+treeplus is a node module for creating and manipulating hierarchical tree structures.
 很多时候我们不需要在输出项目结构的时候 不需要输出node_modules或dist等文件，我们可以通过 -i 接上文件名来排除
-
 # Install
 ```
 $ npm install treeplus -g
