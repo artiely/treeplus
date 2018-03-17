@@ -1,7 +1,8 @@
 {
   "name": "treeplus",
-  "version": "1.0.1",
-  "description": "treeplus is a node module for creating and manipulating hierarchical tree structures.",
+  "version": "1.0.2",
+  "description":
+    "treeplus is a node module for creating and manipulating hierarchical tree structures.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,17 @@
     "node": ">= 0.10"
   },
   "readmeFilename": "README.md",
-  "keywords": ["tree", "treeplus", "文件树", "文件树", "树目录", "目录树"],
+  "keywords": [
+    "tree",
+    "treeplus",
+    "tree structures",
+    "文件树",
+    "文件树",
+    "树目录",
+    "目录树",
+    "文件结构",
+    "项目结构"
+  ],
   "author": "artiely",
   "license": "ISC",
   "dependencies": {

@@ -24,7 +24,6 @@ function deep(target, depth, ignore) {
     }
   })
 
-  // 这里就是两个数组去交集的问题
   if (ignore && ignore.length > 0) {
     for (var i = 0; i < ignore.length; i++) {
       for (var j = 0; j < dirs.length; j++) {
