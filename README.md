@@ -4,13 +4,13 @@
 
 # Install
 
-```
+```bash
 $ npm install treeplus -g
 ```
 
 # Usage
 
-```
+```bash
 $ [tp|treeplus]
 # or
 $ [tp|treeplus] --help 查看帮助
@@ -18,7 +18,7 @@ $ [tp|treeplus] --help 查看帮助
 
 # example
 
-```
+```bash
 $ tp -i node_modules
 # 指定参数，排除单个目录
 # Returns
@@ -30,7 +30,7 @@ $ tp -i node_modules
 └──README.md
 ```
 
-```
+```bash
 # 指定参数，排除多个目录
 $ tp -i node_modules bin
 
@@ -41,7 +41,7 @@ $ tp -i node_modules bin
 └──README.md
 ```
 
-```
+```bash
 # 指定参数，只打印文件夹
 $ tp -d
 
@@ -50,7 +50,7 @@ $ tp -d
 ├──bin
 ```
 
-```
+```bash
 # 指定参数，打印指定的层级,参数大于0
 $ tp -l 1
 
@@ -59,7 +59,7 @@ $ tp -l 1
 ├──bin
 ```
 
-```
+```bash
 # 多参数结合使用
 $ tp -d -l 2 -i node_modules
 
@@ -68,7 +68,7 @@ $ tp -d -l 2 -i node_modules
 ├──bin
 ```
 
-```
+```bash
 $ tp
 
 # Returns
@@ -77,10 +77,6 @@ $ tp
 │ └──treeplus.js
 ├──node_modules
 │ ├──.bin
-│ │ ├──which
-│ │ └──which.cmd
-│ │ ├──CHANGELOG.md
-│ │ ├──completion.sh.hbs
 │ │ ├──index.js
 │ │ ├──LICENSE
 │ │ ├──package.json
